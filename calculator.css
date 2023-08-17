@@ -1,0 +1,75 @@
+
+html
+{
+    
+    background-image: url(csa.jpg) ;
+
+}
+h1{
+    margin-top: 0px;
+}
+.btn
+{
+    border: border-box;
+
+}
+.Calculator
+{
+    width: 320px;
+    height: 500px;
+    margin: 120px auto;
+    border-radius: 5%;
+    border: 5px solid rgb(245, 247, 249);
+    box-shadow: 0px 5px 25px rgb(222, 223, 216);
+    text-align: center;
+    background-color: rgb(48, 47, 47);
+}
+input[type="text"]
+{
+    width: 285px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    margin-left: 2px;
+    padding: 4px;
+    font-size: 24px;
+    color: rgb(12, 12, 12);
+    border-radius: 5px;
+    background-color: rgb(245, 243, 247);
+}
+button{
+    width: 60px;
+    height: 60px;
+    margin: 8px;
+    font-size: 24px;
+    background-color: rgb(236, 193, 158);
+    border-radius: 20px;
+    
+}
+button:hover
+{
+    color: rgb(19, 13, 13);
+    cursor: pointer;
+    background-color: rgb(249, 242, 242);
+}
+@media screen and(max-width:450px)
+{
+    .calculator
+    {
+        width: 72vmin;
+        max-width: 300px;
+        display: block;
+        margin-top: 8rem;
+        justify-content: baseline;
+    }
+    input [type="text"]
+    {
+        font-size: 18px;
+    }
+    button
+    {
+        width: 50px;
+        height: 50px;
+        font-size: 18px;
+    }
+    
+}
